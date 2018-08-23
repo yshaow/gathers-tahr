@@ -1,6 +1,7 @@
 {
   "extends": ["plugin:import/errors"],
   "plugins": ["import"],
+  "globals": {"window": true},
   "env": {
     "es6": true,
     "node": true

@@ -1,2 +1,2 @@
-import {style} from '../app'
-console.log(style)
+import {isObjectLike} from '../app'
+console.log(isObjectLike(NaN), isObjectLike({}))

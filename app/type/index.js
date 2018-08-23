@@ -1,0 +1,6 @@
+export * from './isUndefined'
+export * from './isNull'
+export * from './isNumber'
+export * from './isNaN'
+export * from './isString'
+export * from './isObjectLike'
