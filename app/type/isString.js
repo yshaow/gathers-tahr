@@ -1,5 +1,3 @@
-import getTag from './_getTag'
-
 /**
  * 检测是否是字符串
  *
@@ -7,4 +5,4 @@ import getTag from './_getTag'
  * @param {any} value
  * @returns {boolean} boolean
  */
-export const isString = (value) => (typeof value === 'string' || getTag(value) === '[object String]')
+export const isString = (value) => typeof value === 'string'

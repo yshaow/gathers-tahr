@@ -1,2 +1,2 @@
-import {isObjectLike} from '../app'
-console.log(isObjectLike(NaN), isObjectLike({}))
+// import {isEmpty} from '../app'
+
