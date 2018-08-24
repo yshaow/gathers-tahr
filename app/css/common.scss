@@ -45,6 +45,7 @@ $fi: 6;
 .part {top: 0; right: 0; position: absolute}
 .palb {bottom: 0; left: 0; position: absolute}
 .parb {bottom: 0; right: 0; position: absolute}
+.mc {position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
 $zi: 10;
 @for $i from 0 through $zi {
   .z#{$i} {width: 10 * $i}
@@ -61,6 +62,7 @@ $wi: 24; // 24格
 .hp100 {height: 100%}
 
 // 边距
+.ma {margin: 0 auto}
 $mi: 6;
 @while ($mi > 0) {
   $cm: $mi * 5;
